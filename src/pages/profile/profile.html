@@ -1,0 +1,30 @@
+<ion-content padding [ngStyle]="{'background-image': 'url(' + backgroundImage +')'}">
+  <ion-header>
+  </ion-header>
+<ion-content>
+<ion-row>
+    <ion-col>
+        <span style="font-size: 20px; color:blue ">Queremos te conhecer melhor!</span>
+        
+    </ion-col>
+  </ion-row>
+  
+
+
+  <ion-item>
+    <ion-label floating>Como você quer ser chamado?</ion-label>
+    <ion-input [(ngModel)]="profile.username"></ion-input>
+  </ion-item>
+
+  <ion-item>
+      <ion-label floating>Onde você mora?</ion-label>
+      <ion-input [(ngModel)]="profile.localidade"></ion-input>
+    </ion-item>
+
+    <ion-item>
+        <ion-label floating>Seu Whatsapp</ion-label>
+        <ion-input [(ngModel)]="profile.whatsapp"></ion-input>
+      </ion-item>
+
+      <button ion-button block (click)="createProfile()">Criar meu perfil</button>
+</ion-content>

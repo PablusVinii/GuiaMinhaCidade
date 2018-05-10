@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "788806338595",
+    "firebase_url": "https://guiaminhacidade-65b2b.firebaseio.com",
+    "project_id": "guiaminhacidade-65b2b",
+    "storage_bucket": "guiaminhacidade-65b2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788806338595:android:cb567f29ef3b8b83",
+        "android_client_info": {
+          "package_name": "com.guiaminhacidade.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "788806338595-o8pa9899q5i1p5f9psdbu31fbi7kcc17.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqGaLIr_Te_uGJFvB82IfqpYGDdYC5i1E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

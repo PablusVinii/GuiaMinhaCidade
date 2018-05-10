@@ -1,0 +1,157 @@
+page-detalhes {
+    $black-overlay: rgba(0,0,0,.3);
+    $text-color: #666;
+    $banner-text-color: white;
+    $content-color: whitesmoke;
+    $detail-background: rgba(236,236,236,.8);
+
+   /* Header */
+   .toolbar-background {
+       border-color: transparent;
+       background: $black-overlay;
+   }
+   .bar-header {
+    border: 0px !important;
+    border-bottom-color: transparent !important;
+    background-image: none !important;
+    border-bottom: none !important;
+}
+
+   .bar-button,
+   .toolbar-title {
+       color: $banner-text-color;
+   }
+
+   /* Image */
+   .housing-image{
+       background-size: 100%;
+       height: 50vh;
+       position: absolute;
+   }
+
+   .housing-banner {
+       color: $banner-text-color;
+       background: $black-overlay;
+       height: 10vh;
+       width: 100vw;
+       position: absolute;
+       bottom: -1px;
+
+       .housing-title {
+           display: block;
+           font-size: 1.2px;
+       }
+
+       .price {
+           font-size: 7px;
+       }
+   }
+   /* Content */
+   .content {
+       background: $content-color;
+   }
+
+   .scroll-content {
+       padding-top: 0 !important;
+   }
+
+   .main-content {
+       color: $text-color;
+
+   }
+   .listing-details ion-col {
+       padding: 1px;
+       margin: 0.45px;
+       background: $detail-background;
+       ion-icon {
+           margin-right: .5px;
+       }
+   }
+
+   .main-features {
+       color: #3cc59a;
+
+       ion-icon {
+           font-size: 5.5px !important;
+       }
+   }
+
+   .item-block {
+       text-align: center;
+       display: block;
+   }
+   .col {
+       background-color: #666;
+       background: #666;
+    }
+    .slide-zoom {
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+    .card-content-md {
+        font-size: 1.4rem;
+        line-height: 1.5;
+    }
+    .content {
+        display: block;
+    }
+    .titulo-detalhes {
+        font-size: 20px;
+        color: #96071a;
+    }
+    .card-md h1 {
+        font-size: 2.4rem;
+        font-weight: 400;
+        color: #222;
+    }
+    .fw700 {
+        font-weight: 700!important;
+    }
+    .text-md-dark {
+        color: #96071a;
+    }
+    [text-center] {
+        text-align: center!important;
+    }
+    h1 {
+        font-size: 2.6rem;
+    }
+    h2, h3, h4, h5, h6 {
+        margin-bottom: 1rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+    .text-md-dark {
+        color: #96071a;
+    }
+    .card-md h1 {
+        font-size: 2.4rem;
+        font-weight: 400;
+        color: #222;
+    }
+    .fw700 {
+        font-weight: 700!important;
+    }
+    .text-md-dark {
+        color: #96071a;
+    }
+    [text-center] {
+        text-align: center!important;
+    }
+    .post-title {
+        font-size: 30px;
+        width: 100%;
+        font-weight: bold;
+        color: rgb(8, 6, 6);
+      }
+    .post-p {
+        font-size: 20px;
+        width: 100%;
+        color: rgb(8, 6, 6);
+        }
+    .footer {
+        position: absolute;
+    }
+    
+}

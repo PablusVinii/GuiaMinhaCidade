@@ -1,0 +1,150 @@
+{
+  "homes" : {
+    "atapuz" : {
+      "imageUrl" : "http://imagens3.ne10.uol.com.br/blogsne10/jamildo/uploads//2018/01/goiana2-580x326-748x410.jpg",
+      "name" : "Atapuz",
+      "page" : "AtapuzPage",
+      "subtitle" : "2 novos lugares"
+    },
+    "carnedevaca" : {
+      "imageUrl" : "http://imagens3.ne10.uol.com.br/blogsne10/jamildo/uploads//2018/01/goiana2-580x326-748x410.jpg",
+      "name" : "Carne de Vaca",
+      "page" : "CarnedevacaPage",
+      "subtitle" : "3 novos lugares"
+    },
+    "catuama" : {
+      "imageUrl" : "http://imagens3.ne10.uol.com.br/blogsne10/jamildo/uploads//2018/01/goiana2-580x326-748x410.jpg",
+      "name" : "Catuama e Barra",
+      "page" : "CatuamaPage",
+      "subtitle" : "2 novos lugares"
+    },
+    "goiana" : {
+      "imageUrl" : "http://imagens3.ne10.uol.com.br/blogsne10/jamildo/uploads//2018/01/goiana2-580x326-748x410.jpg",
+      "name" : "Goiana",
+      "page" : "GoianaPage",
+      "subtitle" : "5 novos lugares"
+    },
+    "pontadepedras" : {
+      "imageUrl" : "http://imagens3.ne10.uol.com.br/blogsne10/jamildo/uploads//2018/01/goiana2-580x326-748x410.jpg",
+      "lugares" : {
+        "pousadasayonara" : {
+          "descricao" : "Com uma piscina ao ar livre, a Pousada Sayonara está situada em Goiana e também oferece um lounge compartilhado e um bar. Entre as comodidades desta propriedade estão um restaurante, recepção 24 horas e serviço de quarto, além de Wi-Fi gratuito.  Todas as unidades da pousada estão equipadas com TV. Todos os quartos possuem banheiro privativo.  A propriedade serve café da manhã continental.  A Pousada Sayonara fica a 48 km de Recife e a 38 km de Jacumã. O aeroporto mais próximo é o Aeroporto Internacional Presidente Castro Pinto, a 56 km da propriedade. ",
+          "endereco" : "Rua do meio, 919",
+          "foto1" : "https://www.smallworks.ca/wp-content/uploads/exterior11.jpg",
+          "foto2" : "https://www.smallworks.ca/wp-content/uploads/exterior11.jpg",
+          "foto3" : "https://www.smallworks.ca/wp-content/uploads/exterior11.jpg",
+          "foto4" : "https://www.smallworks.ca/wp-content/uploads/exterior11.jpg",
+          "foto5" : "https://www.smallworks.ca/wp-content/uploads/exterior11.jpg",
+          "horario" : "7 - 22hrs",
+          "imageUrl" : "https://r-ec.bstatic.com/xdata/images/hotel/square200/108205940.jpg?k=a0a0790109cbf33310fa0ed24f3ba03b241b33bd225ab2a6fb262ad08b6055be&o=",
+          "localizacao" : "50 mts do mar",
+          "name" : "Pousada Sayonara",
+          "price" : 339339,
+          "quartos" : "8 quartos suites",
+          "tel" : "+5581994303418"
+        }
+      },
+      "name" : "Ponta de Pedras",
+      "page" : "PontadepedrasPage",
+      "subtitle" : "3 novos lugares"
+    }
+  },
+  "recomendacoes" : {
+    "recomendacoes" : {
+      "bares" : {
+        "viamar" : {
+          "descricao" : "Com uma piscina ao ar livre, a Pousada Sayonara está situada em Goiana e também oferece um lounge compartilhado e um bar. Entre as comodidades desta propriedade estão um restaurante, recepção 24 horas e serviço de quarto, além de Wi-Fi gratuito.  Todas as unidades da pousada estão equipadas com TV. Todos os quartos possuem banheiro privativo.  A propriedade serve café da manhã continental.  A Pousada Sayonara fica a 48 km de Recife e a 38 km de Jacumã. O aeroporto mais próximo é o Aeroporto Internacional Presidente Castro Pinto, a 56 km da propriedade. ",
+          "endereco" : "Rua do meio, 919",
+          "foto1" : "https://www.smallworks.ca/wp-content/uploads/exterior11.jpg",
+          "foto2" : "https://www.smallworks.ca/wp-content/uploads/exterior11.jpg",
+          "foto3" : "https://www.smallworks.ca/wp-content/uploads/exterior11.jpg",
+          "foto4" : "https://www.smallworks.ca/wp-content/uploads/exterior11.jpg",
+          "foto5" : "https://www.smallworks.ca/wp-content/uploads/exterior11.jpg",
+          "horario" : "7 - 22hrs",
+          "imageUrl" : "https://r-ec.bstatic.com/xdata/images/hotel/square200/108205940.jpg?k=a0a0790109cbf33310fa0ed24f3ba03b241b33bd225ab2a6fb262ad08b6055be&o=",
+          "localizacao" : "50 mts do mar",
+          "name" : "Via Mar Bar e Restaurante",
+          "price" : 339339,
+          "quartos" : "8 quartos suites",
+          "tel" : "+5581994303418"
+        }
+      },
+      "imageUrl" : "https://i0.wp.com/efeitofuria.com.br/wp-content/uploads/2015/04/futbol-bar.jpg?fit=640%2C360&ssl=1",
+      "name" : "Bares legais para assistir esportes",
+      "page" : "BaresPage"
+    },
+    "experienciasgastronomicas" : {
+      "imageUrl" : "https://wikihaus.com.br/2016/wp-content/uploads/2016/11/gastronomia-petropolis.png",
+      "name" : "Lugares para Experiências Gastronômicas",
+      "page" : "GastronomiaPage",
+      "experienciasgastronomicas" : {
+        "viamar" : {
+          "descricao" : "Com uma piscina ao ar livre, a Pousada Sayonara está situada em Goiana e também oferece um lounge compartilhado e um bar. Entre as comodidades desta propriedade estão um restaurante, recepção 24 horas e serviço de quarto, além de Wi-Fi gratuito.  Todas as unidades da pousada estão equipadas com TV. Todos os quartos possuem banheiro privativo.  A propriedade serve café da manhã continental.  A Pousada Sayonara fica a 48 km de Recife e a 38 km de Jacumã. O aeroporto mais próximo é o Aeroporto Internacional Presidente Castro Pinto, a 56 km da propriedade. ",
+          "endereco" : "Rua do meio, 919",
+          "foto1" : "https://www.smallworks.ca/wp-content/uploads/exterior11.jpg",
+          "foto2" : "https://www.smallworks.ca/wp-content/uploads/exterior11.jpg",
+          "foto3" : "https://www.smallworks.ca/wp-content/uploads/exterior11.jpg",
+          "foto4" : "https://www.smallworks.ca/wp-content/uploads/exterior11.jpg",
+          "foto5" : "https://www.smallworks.ca/wp-content/uploads/exterior11.jpg",
+          "horario" : "7 - 22hrs",
+          "imageUrl" : "https://r-ec.bstatic.com/xdata/images/hotel/square200/108205940.jpg?k=a0a0790109cbf33310fa0ed24f3ba03b241b33bd225ab2a6fb262ad08b6055be&o=",
+          "localizacao" : "50 mts do mar",
+          "name" : "Via Mar Bar e Restaurante",
+          "price" : 339339,
+          "quartos" : "8 quartos suites",
+          "tel" : "+5581994303418"
+        }
+      }
+    },
+    "lugaressexta" : {
+      "imageUrl" : "http://www.significadodossonhos.inf.br/wp-content/uploads/2017/08/sonhar-com-festas-1.jpg",
+      "name" : "Lugares para sair sexta-feira à noite",
+      "page" : "LugaresPage"
+    },
+    "melhoresrestaurantes" : {
+      "imageUrl" : "https://f.i.uol.com.br/fotografia/2017/11/08/15101638585a0345928b469_1510163858_3x2_md.jpg",
+      "name" : "Incrível lista com os melhores restaurantes",
+      "page" : "MelhoresrestaurantesPage",
+      "melhoresrestaurantes" : {
+        "viamar" : {
+          "descricao" : "Com uma piscina ao ar livre, a Pousada Sayonara está situada em Goiana e também oferece um lounge compartilhado e um bar. Entre as comodidades desta propriedade estão um restaurante, recepção 24 horas e serviço de quarto, além de Wi-Fi gratuito.  Todas as unidades da pousada estão equipadas com TV. Todos os quartos possuem banheiro privativo.  A propriedade serve café da manhã continental.  A Pousada Sayonara fica a 48 km de Recife e a 38 km de Jacumã. O aeroporto mais próximo é o Aeroporto Internacional Presidente Castro Pinto, a 56 km da propriedade. ",
+          "endereco" : "Rua do meio, 919",
+          "foto1" : "https://www.smallworks.ca/wp-content/uploads/exterior11.jpg",
+          "foto2" : "https://www.smallworks.ca/wp-content/uploads/exterior11.jpg",
+          "foto3" : "https://www.smallworks.ca/wp-content/uploads/exterior11.jpg",
+          "foto4" : "https://www.smallworks.ca/wp-content/uploads/exterior11.jpg",
+          "foto5" : "https://www.smallworks.ca/wp-content/uploads/exterior11.jpg",
+          "horario" : "7 - 22hrs",
+          "imageUrl" : "https://r-ec.bstatic.com/xdata/images/hotel/square200/108205940.jpg?k=a0a0790109cbf33310fa0ed24f3ba03b241b33bd225ab2a6fb262ad08b6055be&o=",
+          "localizacao" : "50 mts do mar",
+          "name" : "Via Mar Bar e Restaurante",
+          "price" : 339339,
+          "quartos" : "8 quartos suites",
+          "tel" : "+5581994303418"
+        }
+      }
+    },
+    "restaurantesromanticos" : { 
+      "imageUrl" : "https://media-cdn.tripadvisor.com/media/photo-s/07/b5/62/9b/indaia-restaurante.jpg",
+      "name" : "Restaurantes românticos para ir a dois",
+      "page" : "RestaurantesromanticosPage",
+      "restaurantesromanticos" : {
+        "viamar" : {
+          "descricao" : "Com uma piscina ao ar livre, a Pousada Sayonara está situada em Goiana e também oferece um lounge compartilhado e um bar. Entre as comodidades desta propriedade estão um restaurante, recepção 24 horas e serviço de quarto, além de Wi-Fi gratuito.  Todas as unidades da pousada estão equipadas com TV. Todos os quartos possuem banheiro privativo.  A propriedade serve café da manhã continental.  A Pousada Sayonara fica a 48 km de Recife e a 38 km de Jacumã. O aeroporto mais próximo é o Aeroporto Internacional Presidente Castro Pinto, a 56 km da propriedade. ",
+          "endereco" : "Rua do meio, 919",
+          "foto1" : "https://www.smallworks.ca/wp-content/uploads/exterior11.jpg",
+          "foto2" : "https://www.smallworks.ca/wp-content/uploads/exterior11.jpg",
+          "foto3" : "https://www.smallworks.ca/wp-content/uploads/exterior11.jpg",
+          "foto4" : "https://www.smallworks.ca/wp-content/uploads/exterior11.jpg",
+          "foto5" : "https://www.smallworks.ca/wp-content/uploads/exterior11.jpg",
+          "horario" : "7 - 22hrs",
+          "imageUrl" : "https://r-ec.bstatic.com/xdata/images/hotel/square200/108205940.jpg?k=a0a0790109cbf33310fa0ed24f3ba03b241b33bd225ab2a6fb262ad08b6055be&o=",
+          "localizacao" : "50 mts do mar",
+          "name" : "Via Mar Bar e Restaurante",
+          "price" : 339339,
+          "quartos" : "8 quartos suites",
+          "tel" : "+5581994303418"
+        }
+      }
+    }
+}

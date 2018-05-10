@@ -1,0 +1,41 @@
+  <ion-content padding class="transparent-header" [ngStyle]="{'background-image': 'url(' + backgroundImage +')'}">
+
+  <ion-header>
+    <ion-navbar color="danger">
+    </ion-navbar>
+  </ion-header>
+
+  <div padding style="padding-top: 30px; align-items: center">
+      <ion-row>
+          <ion-col>
+              <span style="font-size: 20px">Mais do que somente lugares... descubra as maravilhas da cidade.</span>
+              
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+              <span style="font-size: 13px">Preencha com o seu melhor email e senha abaixo.</span>
+          </ion-col>
+        </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-list>
+          <ion-item>
+            <ion-label>E-mail</ion-label>
+            <ion-input type="text" [(ngModel)]="user.email"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label>Senha</ion-label>
+            <ion-input type="password" [(ngModel)]="user.password"></ion-input>
+          </ion-item>
+        </ion-list>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+        <ion-col>
+            <button ion-button block (click)="register(user)">Continuar  ></button>
+        </ion-col>
+      </ion-row>
+    
+  </div>
+</ion-content>

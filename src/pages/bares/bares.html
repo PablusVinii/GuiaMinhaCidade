@@ -1,0 +1,39 @@
+<ion-header>
+
+    <ion-navbar color="danger">
+        
+      <ion-title>Os melhores bares</ion-title>
+    </ion-navbar>
+
+  </ion-header>
+
+
+  <ion-content>
+
+    <ion-list>
+      <ion-item (click)="abrirDetalhes($event, local)" *ngFor="let local of locais | async">
+        <ion-thumbnail item-start>
+          <img [src]="local.imageUrl">
+          </ion-thumbnail>
+          <ion-label class="label label-md">
+		    
+              <h3 class="fw500 text text-md text-md-dark" color="dark" ion-text="">{{local.name}}</h3>
+              <p class="white-bg text-secondary badge badge-md" ion-text="">
+                <span class="text-secondary" ion-text="">
+                    {{local.categoria}}
+                </span> ∙ 
+                <span color="primary" ion-text="" class="text text-md text-md-primary">
+                    {{local.custo}}
+                </span>
+              </p>
+              <p class="text-12x text text-md" ion-text="">{{local.localizacao}}</p>
+              
+            </ion-label>
+            <ion-badge class="white-bg text-secondary badge badge-md" item-end="">
+              <ion-icon name="star" role="img" class="icon icon-md ion-md-star" aria-label="star"></ion-icon>
+              {{local.nota}}
+            </ion-badge>
+      </ion-item>
+    </ion-list>
+
+  </ion-content>

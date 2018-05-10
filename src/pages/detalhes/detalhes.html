@@ -1,0 +1,86 @@
+
+
+<ion-content fullscreen elestic-header>
+  <ion-header no-border>
+  <ion-navbar color="danger">
+    <ion-title>Detalhes de {{local.name}}</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content fullscreen elestic-header>
+    <div>
+      <ion-slides pager>
+      <ion-slide>
+          <img [src]="local.imageUrl" width="100%" />
+        </ion-slide>
+        <ion-slide>
+          <img [src]="local.imageUrl1" width="100%"/>
+        </ion-slide>
+      </ion-slides>
+    </div>
+<div class="housing-image">
+      
+  </div>
+  <ion-content class="card-content-md">
+      
+          <div  class="post-title" style="font-size: 25px" ion-text="" text-center="">
+            {{local.name}}
+        </div>
+        <p ion-text="" text-center="" >{{local.endereco}} • <ion-icon name="md-alarm" role="img" class="icon icon-md md-alarm" aria-label="star"></ion-icon> {{local.horario}}</p>
+        <div text-center="">
+      <ion-badge color="item" class="badge badge-md badge-md-secondary">{{local.categoria}}</ion-badge>
+          <ion-badge color="danger">
+            <ion-icon name="star" role="img" class="icon icon-md ion-md-star" aria-label="star"></ion-icon>
+            {{local.nota}}
+          </ion-badge>
+        </div>
+      
+    
+    <section class="housing-banner" padding>
+        
+    </section>
+    
+    <section class="main-content">
+      <ion-grid class="listing-details">
+        <ion-row style="align-self: auto;">
+          <p class="post-p" margin-left margin-right no-margin-top style="text-align: left; font-size: 15px">
+            {{local.descricao}}
+          </p>
+        </ion-row>
+        <ion-row>
+          <div margin-left margin-right no-margin-top>
+          <ion-col>
+            <ion-icon name="md-cash"></ion-icon>  {{local.custo}}
+          </ion-col>
+          <ion-col>
+            <ion-icon name="pin"></ion-icon>  {{local.localizacao}}
+          </ion-col></div>
+        </ion-row>
+        <h2>Fotos</h2>
+        <ion-slides pager>
+        
+          <ion-slide>
+            <img [src]="local.foto1" />
+          </ion-slide>
+          <ion-slide>
+            <img [src]="local.foto2" />
+          </ion-slide>
+          <ion-slide>
+            <img [src]="local.foto3" />
+          </ion-slide>
+          <ion-slide>
+            <img [src]="local.foto4" />
+          </ion-slide>
+          <ion-slide>
+            <img [src]="local.foto5" />
+          </ion-slide>
+        </ion-slides>
+      </ion-grid>
+    </section>
+</ion-content>
+
+<ion-footer class="footer">
+  <button ion-button large full no-margin color="danger" (click)="ligar(local.tel)" >
+    Entre em contato agora
+  </button>
+</ion-footer>
+

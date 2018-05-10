@@ -1,12 +1,14 @@
-<ion-menu [content]="content">
-  <ion-header>
-    <ion-toolbar>
-      <ion-title>Menu</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-menu [content]="content"  id="menu-material">
+  
 
   <ion-content>
-    <ion-list>
+      <div class="menu-header">
+          <!--material-design-background-->
+          <img class="user-avatar round" src='https://datastandard.blob.core.windows.net/botimg/5a04e51fb932554690f23a88.png'/>
+          <p class="name">Bem vindo, {{(profileData | async)?.username}}!</p>
+          <p class="e-mail">{{(profileData | async)?.localidade}}</p>
+        </div>
+    <ion-list style="font-size: 12px">
       <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
         {{p.title}}
       </button>

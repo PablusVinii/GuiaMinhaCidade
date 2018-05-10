@@ -1,0 +1,72 @@
+<ion-header>
+  <ion-navbar color="danger">
+    <ion-title>
+      Inspire-se
+    </ion-title>
+
+  </ion-navbar>
+</ion-header>
+
+<ion-content fullscreen elestic-header>
+
+  <div>
+    <ion-slides pager>
+      <ion-slide>
+        <img [src]="post.imageUrl" width="100%" />
+      </ion-slide>
+      <ion-slide>
+        <img [src]="post.imageUrl1" width="100%"/>
+      </ion-slide>
+      <ion-slide>
+          <img [src]="post.imageUrl2" width="100%"/>
+        </ion-slide>
+        <ion-slide>
+            <img [src]="post.imageUrl3" width="100%"/>
+          </ion-slide>
+    </ion-slides>
+    
+    </div>
+  <ion-content padding="true">
+      <div class="post-title">
+          {{post.title}}
+        </div><br>
+    <div class="post-p">
+      <span>{{post.descricao}}</span>
+    </div><br>
+  
+  
+    <div class="post-p">
+        {{post.p1}}
+    </div><br>
+  
+  
+    <div class="post-p">
+  
+        {{post.p2}}
+    </div><br>
+  
+  
+    <div class="post-p">
+        {{post.p3}}
+    </div><br>
+  
+  
+    <div class="post-p">
+  
+        {{post.p4}}
+    </div><br>
+    <div class="post-p">
+  
+        {{post.p5}}
+    </div><br>
+    <div class="post-p">
+  
+        {{post.p6}}
+    </div><br>
+  
+  
+    <div class="post-p">
+        {{post.rodape}}
+    </div>
+  
+</ion-content>

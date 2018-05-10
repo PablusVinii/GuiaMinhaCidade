@@ -1,0 +1,19 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Os melhores bares</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content class="card-background-page">
+
+    <ion-card *ngFor="let local of locais | async" (click)="abrirDetalhes($event, local)">
+      <img [src]="local.imageUrl"/>
+      <div class="card-title">{{local.name}}</div>
+      <div class="card-subtitle">{{local.subtitle}}</div>
+    </ion-card>
+  
+
+</ion-content>

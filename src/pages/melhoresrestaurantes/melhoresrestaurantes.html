@@ -1,0 +1,24 @@
+<ion-header no-border>
+
+  <ion-navbar transparent>
+    <ion-title>Melhores Restaurantes</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+ 
+  <ion-list>
+    <ion-item *ngFor="let restaurante of restaurantes | async">
+      <ion-thumbnail item-start>
+        <img [src]="restaurante.imageUrl">
+      </ion-thumbnail>
+      <h2>{{restaurante.name}}</h2>
+      <p>{{restaurante.endereco}}</p>
+      <p>{{restaurante.horario}}</p>
+      <button ion-button clear item-end (click)="abrirDetalhes($event, restaurante)">Ver</button>
+    </ion-item>
+  </ion-list> 
+
+</ion-content>
